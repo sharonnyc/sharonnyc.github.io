@@ -1,0 +1,250 @@
+/* THE HOME PAGE */
+
+
+nav {
+    background-color: #d9dce0;
+    padding: 2px 0px;
+    
+
+}
+
+
+nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+
+
+.picture {
+    width: auto;
+    background-image:url(images/taco2.jpg);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+
+.social img {
+    width: 90px;
+    vertical-align: bottom;
+    padding-left: 5%;
+}
+
+
+
+
+
+
+/* ABOUT PAGE*/
+
+
+body {
+    background-color: #3177ab;
+}
+
+
+img {
+    border-radius: 10px;
+}
+
+.us {
+    margin-left: 25px;
+}
+
+.us h2 {
+color: #fff;
+font-weight: 400;
+font-style: italic;    
+}
+
+
+.main {
+    flex: 3;
+}
+
+
+.products {
+    display: flex;
+}
+
+
+.about {
+    border: 1px;
+    padding: 2%;
+    width: 20%;
+}
+
+
+.about img {
+    width: 100%;
+}
+
+
+.us p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: lighter;
+    text-align: left;
+}
+
+
+
+/* BANNER */
+
+header {
+  background-image:url(images/chips.jpg);
+  padding: 5px;
+  margin-top:15px;
+  text-align: center;
+  font-size: 60px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  color:rgba(233, 99, 127, 0.66);
+  font-family: 'Roboto', sans-serif;
+  text-shadow: -3px -2px 2px #000, 2px 2px 5px orangered;
+  border: 5px solid #3177ab;
+  border-style:ridge;
+}
+
+
+h2.ban{
+  padding-top: 1%;
+  font-family: 'Krona One', sans-serif;
+  font-size:70px;
+  color:#0b0401;
+  letter-spacing: 30px;
+ 
+}
+
+
+/* MENU SECTIONS*/
+
+.white {
+    
+background-color: #fff;    
+}
+
+.header{
+  border-style:ridge;
+  border-color: #3177ab;
+  border-width:10px;
+  margin-top: 20px;
+  box-shadow: 5px 13px #d9dce0;
+    }
+
+.headera{
+  border-style:outset;
+  border-color:#3177ab;
+  border-width:10px;
+  margin-top: 20px;
+}
+
+.menuitems{
+ 
+  text-align: center;
+}
+
+.price{
+  margin-top: -1%;
+ text-align: center;
+  
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 600px;
+  color:black;
+  text-align: center;
+  text-decoration: overline underline;
+  text-decoration-style:dotted;
+  letter-spacing: 7px;  
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color:orangered; 
+}
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+ margin-top: -9px;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-top: -15px;
+  
+}
+
+/* Beverages Section */
+
+img.red{
+  float:left;
+  padding:20% 1%;
+ 
+}
+
+img.white{
+  float:right;
+  padding:20% 1%;
+
+}
+.bevitems{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  flex:1;
+  flex-direction:column;
+  display:flex;
+  justify-content: space-between;
+  margin-bottom:10px;
+}
+.parent{
+  justify-content: space-around;
+  border-style:outset;
+  border-color: #3177ab;
+  border-width:10px;
+  margin-top: 10px;
+}
+h1.bev{
+  text-align: center;
+}
+h1.beer{
+  text-align:center;
+}
+.drinkitems{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+}
+p.bev{
+  color:orangered;
+}
+td{
+  color:orangered;
+}
+p.name{
+  margin-top:1px;
+}
