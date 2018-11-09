@@ -36,9 +36,9 @@ body, html {
 }
 
 
-.BookClub {
-    width: auto;
-    background-image:url(images/BookClub.jpg);
+.bookclub {
+    width: 100%;
+    background-image:url(images/bookclub.jpg);
     background-size: cover;
     height: 100%;
     display: flex;
